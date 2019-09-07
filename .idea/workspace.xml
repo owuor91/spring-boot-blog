@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59d3e3b-a106-459f-b566-4625fd33c7d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f59d3e3b-a106-459f-b566-4625fd33c7d4" name="Default Changelist" comment="perform CRUD HTTP requests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/owuor91/repositories/BlogRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/owuor91/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/owuor91/MainApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/owuor91/controllers/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/owuor91/controllers/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/owuor91/models/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/owuor91/models/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/owuor91/models/BlogMockedData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/owuor91/controllers/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/owuor91/controllers/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/owuor91/models/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/owuor91/models/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/owuor91/models/BlogMockedData.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,6 +41,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567868337956</updated>
     </task>
+    <task id="LOCAL-00001" summary="perform CRUD HTTP requests">
+      <created>1567872503934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567872503934</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +95,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="perform CRUD HTTP requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="perform CRUD HTTP requests" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

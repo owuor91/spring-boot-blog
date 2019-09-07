@@ -1,11 +1,23 @@
 package io.owuor91.models;
 
-public class Blog {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity public class Blog {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private int id;
   private String title;
   private String content;
 
   public Blog() {
+  }
+
+  public Blog(String title, String content) {
+    this.title = title;
+    this.content = content;
   }
 
   public Blog(int id, String title, String content) {
