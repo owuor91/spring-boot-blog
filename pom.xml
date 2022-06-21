@@ -28,7 +28,7 @@
     <dependency>
       <artifactId>mysql-connector-java</artifactId>
       <groupId>mysql</groupId>
-      <version>8.0.17</version>
+      <version>8.0.28</version>
     </dependency>
 
     <dependency>
